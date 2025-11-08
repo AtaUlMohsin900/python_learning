@@ -1,9 +1,9 @@
 # iEEE 754 floating point precision issue demonstration
 # float values
 if (Amir == 'Present'):
-    print("yes Amir is Present")
+    print("yes Umer is Present")
     else:
-        print("Amir is not present")
+        print("Umer is not present")
   # elif (John == 'yes John is present')
   #   print("yes John is present")
   # elif (Sara == 'Present'):
