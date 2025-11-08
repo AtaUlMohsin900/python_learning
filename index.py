@@ -1,6 +1,6 @@
 # iEEE 754 floating point precision issue demonstration
 # float values
-if (Amir == 'Present'):
+if (Umer == 'Present'):
     print("yes Umer is Present")
     else:
         print("Umer is not present")
