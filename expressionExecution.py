@@ -15,3 +15,14 @@ print((A+txt)*B)  # precedence(A+txt) then *B
 A, B = 2, 3
 c = 4
 print(A + B* c)   # precedence(B*c) then +A
+
+
+  # Arithmetic expression with integer and Float with result in Float.
+A, B = 10, 5.0
+c = A * B
+print(c)
+
+# Result of division operator with two integer will be Float.
+A, B = 1,2
+C = A/B 
+print(c)
