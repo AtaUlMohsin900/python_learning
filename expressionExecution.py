@@ -32,3 +32,10 @@ print(c)
 A, B = 1.5, 3
 c = A//B
 print(C, A/B)
+
+# Floor gives lessor than or equal to the Float value
+# Result of (A//B) is same as floor (A/B)
+
+A, B = 12, 5
+c = A//B
+print(c)
