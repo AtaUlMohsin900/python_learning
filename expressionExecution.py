@@ -3,4 +3,11 @@
 A, B = 2,3
 Txt = "a"
 result = 2*Txt *3
-print(f"{result} Number of 'a' printed in : {len(result)} times")  # Output: aaaaaa
+print(f"{result} Number of 'a' printed in : {len(result)} times")  
+
+
+# String & Numeric can operate with = + (Concatenate).
+
+A, B = "2", 3
+txt = "s"
+print(A + txt * B)  
