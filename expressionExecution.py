@@ -26,3 +26,9 @@ print(c)
 A, B = 1,2
 C = A/B 
 print(c)
+
+# integer division with Float and integer will give integer display as Flout
+
+A, B = 1.5, 3
+c = A//B
+print(C, A/B)
