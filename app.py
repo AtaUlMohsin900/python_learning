@@ -1,16 +1,9 @@
-# name = input("Enter your name: ")
-# age = input("Enter your age: ")
-# print(f"Your Name is:, {name}! Your age is: {age} years old.")
-
-def greeting():
-  return "Hello"
-print(greeting())
-
-import datetime
-now = datetime.datetime.now()
-print(now)
-
-class Greeting:
-  def greet(self, name):
-    return 'Full Stack Software' + name
-print(Greeting().greet(' Developer'))
+name = str(input("Enter a name: "))
+age = int(input("Enter your age: " ))
+price = float(input("Enter the price: " ))
+is_student = bool(int(input("Are you a student? (1 for Yes, 0 for No): " )))
+print(type(name))
+print(type(age))
+print(type(price))
+print(type(is_student))
+print(f"your name is: {name}, your age is: {age}, the price is: {price}, student status: {is_student}")
